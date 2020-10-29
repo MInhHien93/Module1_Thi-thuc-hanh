@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="exercise-4.js"></script>
+</head>
+<body>
+<p id="display"></p>
+<script>
+    let display = document.getElementById("display");
+
+    function displayObj() {
+        let objAnimal1 = new Animal();
+        objAnimal1.name = "Elephant";
+        objAnimal1.weight = 45.6;
+        display.innerHTML = objAnimal1.toString();
+        let objAnimal2 = new Animal();
+        objAnimal2.name = "Mouse";
+        console.log(objAnimal2.name);
+    }
+
+    displayObj();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x;
+
+    function findX(a, b) {
+        if (a === 0) {
+            if (b === 0) {
+                alert("Phương trình có vô số nghiệm!");
+            } else {
+                alert("Phương trình vô nghiệm!");
+            }
+        } else {
+            x = -b / a;
+        }
+    }
+
+    findX(5, 8);
+    console.log(x + " là nghiệm của phương trình!");
+</script>
+</body>
+</html>

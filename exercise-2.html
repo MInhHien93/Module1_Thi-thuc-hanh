@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [1, 3, 4, 5, 23, 68];
+    let number = +prompt("Enter a number");
+
+    function result() {
+        for (let i = 0; i < array.length; i++) {
+            if (number === array[i]) {
+                alert(number + " là một phần tử của mảng");
+                return;
+            }
+        }
+    }
+
+    result();
+</script>
+</body>
+</html>
